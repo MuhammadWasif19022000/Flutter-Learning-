@@ -1,0 +1,61 @@
+void main() {
+//   var num1 = 123;
+//   var num2 = 21;
+
+//   if(num1<= num2){
+//     print('Your Condition is true');
+//   }
+//   else {
+//   print('Your Condition is false');
+//   }
+
+//   String str1 = "Asad";
+//   String str2 = 'Computer';
+
+//   if(str2 != str1){
+//      print('Your Condition is true');
+//   }
+//   else{
+//      print('Your Condition is false');
+//   }
+
+  num chem = 65;
+  print("Your Chemistry marks is $chem\n");
+  num phys = 45;
+  print("Your Physics marks is $phys\n");
+  num comp = 75;
+  print("Your Computer marks is $comp\n");
+  num maths = 85;
+  print("Your Maths marks is $maths\n");
+  num urdu = 95;
+  print("Your Urdu marks is $urdu\n");
+  
+  num obtainedmarks = chem+phys+comp+maths+urdu;
+  print("Your Obtained marks is $obtainedmarks\n");
+  num total = 500;
+  print("Your Total marks is $total\n");
+  
+  num percantage = obtainedmarks*100/total;
+  print("Your Percantage is $percantage\n");
+  
+  if(percantage>=80){
+    print("Your Grade is A++");
+  }
+  else if(percantage>=70){
+    print("Your Grade is A");
+  }
+  else if(percantage>=60){
+    print("Your Grade is B");
+  }
+  else if(percantage>=50){
+    print("Your Grade is C");
+  }
+  else if(percantage>=40){
+   print("Your Grade is D");
+  }
+  else{
+    print("Your Grade is Fail");
+  }
+  
+  
+}
